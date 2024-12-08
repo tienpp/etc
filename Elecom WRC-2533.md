@@ -22,7 +22,7 @@ Don't be fool by the `uci_safe_get` function call to get the data out of config,
 
 ## The Fix in the Successor Model
 
-Elecom has addressed command injection issues in their newer products. For example, in the WRC-2533GST2 (the successor to the WRC-2533GST), the firmware includes checks on POST data to filter out potentially dangerous characters `"&;|><\"`\*\\$"`.
+Elecom has addressed command injection issues in their newer products. For example, in the WRC-2533GST2 (the successor to the WRC-2533GST), the firmware includes checks on POST data to filter out potentially dangerous characters `"&;|><\"``\*\\$"`.
 
 ![The Fix](images/wrc/filter.png?raw=true "The fix")
 
